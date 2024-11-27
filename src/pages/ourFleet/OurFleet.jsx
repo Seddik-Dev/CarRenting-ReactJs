@@ -4,7 +4,7 @@ import Cars from './Cars'
 function OurFleet() {
     return (
         <div>
-            <div className="border border-black mx-4 sm:mx-8 lg:mx-16">
+            <div className="mx-4 sm:mx-8 lg:mx-16">
                 <section className="text-center pt-10 pb-5">
                     <h1 className="text-5xl font-extrabold mb-2"><span className='text-orange-600'>Our</span> Fleet</h1>
                 </section>

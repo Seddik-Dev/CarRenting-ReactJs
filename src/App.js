@@ -2,6 +2,8 @@ import Navbar from "./Navbar";
 import "./styles/Styles.css";
 import AboutUs from "./pages/aboutsUs/AboutUs";
 import OurFleet from "./pages/ourFleet/OurFleet";
+import WhyUs from "./pages/whyUs/WhyUs";
+import ContactUs from "./pages/ContactUs/ContactUs";
 function App() {
   return (
     <>
@@ -26,6 +28,8 @@ function App() {
       </div>
       <AboutUs/>
       <OurFleet/>
+      <WhyUs/>
+      <ContactUs/>
     </>
   );
 }
